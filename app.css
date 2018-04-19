@@ -185,7 +185,7 @@ p {
   .projects {
     width: 250px;
   }
-  
+
   .bt-pic, .ffr-pic, .amMan-pic {
     width: 100%;
     opacity: .9;
@@ -215,6 +215,7 @@ p {
 
   .ffr-pic {
     background-image: url('images/ffr1.png');
+    z-index: 99;
   }
 
   p {
