@@ -164,13 +164,13 @@ p {
   background-color: #292b2a;
   border: 2px solid #7a8682;
 }
-/* Turn off parallax scrolling for tablets and phones */
+/* Turn off parallax scrolling for tablets and phones
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
         background-size: auto;
     }
-}
+}*/
 
 @media screen and (max-width: 600px) {
   .bio-container, .container{
@@ -185,6 +185,7 @@ p {
   .projects {
     width: 250px;
   }
+  
   .bt-pic, .ffr-pic, .amMan-pic {
     width: 100%;
     opacity: .9;
