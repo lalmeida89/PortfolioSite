@@ -17,6 +17,7 @@ body, html {
   background-size: contain;
   background-position: center -10vh;
   background-color: transparent;
+  z-index: 0;
 
 }
 .bgimg-1 {
@@ -140,7 +141,7 @@ p {
 
 .repoLink {
   border: 2px solid  #353837;
-  color:  #353837;
+  color:  white;
 }
 
 .projectLink {
@@ -174,10 +175,6 @@ p {
 }*/
 
 @media screen and (max-width: 600px) {
-  body {
-    background-attachment: scroll;
-    background-size: auto;
-  }
   .bio-container, .container{
     width: -webkit-fill-available;
     max-width: 95%;
