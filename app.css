@@ -161,11 +161,18 @@ p {
   margin-top: 20px;
 }
 
-.projectLink:hover, .repoLink:hover {
+.projectLink:hover {
   cursor: pointer;
   color: white;
   background-color: #292b2a;
   border: 2px solid #7a8682;
+}
+
+.repoLink:hover {
+  cursor: pointer;
+  color: white !important;
+  background-color: #292b2a !important;
+  border: 2px solid #7a8682 !important;
 }
 /* Turn off parallax scrolling for tablets and phones
 @media only screen and (max-device-width: 1024px) {
