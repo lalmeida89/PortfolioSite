@@ -176,6 +176,7 @@ p {
 @media screen and (max-width: 600px) {
   .bio-container, .container{
     width: -webkit-fill-available;
+    max-width: 95%;
   }
 
   .frameworks-container {
