@@ -95,7 +95,7 @@ h3 {
 }
 
 footer {
-  background-color: #111111e0;
+  background-color: rgba(10, 10, 10, 0.78);
   text-align: center;
   color: white;
   margin: 0;
@@ -108,12 +108,12 @@ p {
 
 .container {
   width: 500px;
-  padding: 3vh 5vh;
+  padding: 4vh 5vh;
   margin: auto;
   position: relative;
   border-radius: 4px;
   color: #f9f8f8;
-  background-color: #111111e0;
+  background-color: rgba(10, 10, 10, 0.78);
   text-align: justify;
   font-family: 'Abel', sans-serif;
 }
