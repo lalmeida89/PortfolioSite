@@ -99,6 +99,21 @@ footer {
   text-align: center;
   color: white;
   margin: 0;
+  bottom: 0;
+}
+
+.avatar {
+  margin: auto;
+  text-align: center;
+  height: 200px;
+}
+
+.avatar > img {
+  margin: auto;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  border: 2px solid rgba(10, 10, 10, 0.31);
 }
 
 p {
@@ -204,6 +219,10 @@ p {
     display: block;
     overflow: hidden;
     margin: auto;
+  }
+
+  .near-footer {
+    height: 250px;
   }
 
   .background-pic, .amMan-pic {
