@@ -95,7 +95,7 @@ h3 {
 }
 
 footer {
-  background-color: rgba(10, 10, 10, 0.78);
+  background-color: rgba(10, 10, 10, 0.94);
   text-align: center;
   color: white;
   margin: 0;
@@ -128,7 +128,7 @@ p {
   position: relative;
   border-radius: 4px;
   color: #f9f8f8;
-  background-color: rgba(10, 10, 10, 0.78);
+  background-color: rgba(10, 10, 10, 0.94);
   text-align: justify;
   font-family: 'Abel', sans-serif;
 }
@@ -191,6 +191,9 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+  html, body {
+    background-attachment: scroll;
+  }
   .bio-container, .container{
     width: -webkit-fill-available;
     max-width: 95%;
