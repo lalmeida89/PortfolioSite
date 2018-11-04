@@ -241,6 +241,11 @@ p {
     z-index: 99;
   }
 
+  .ffd-pic {
+    background-image: url('images/ffd.png');
+    height: auto;
+  }
+
   p {
     font-size: 12px;
   }
