@@ -205,7 +205,7 @@ p {
     width: 250px;
   }
 
-  .bt-pic, .ffr-pic, .amMan-pic {
+  .bt-pic, .ffr-pic, .amMan-pic, .ffd-pic {
     width: 100%;
     opacity: .9;
     max-width: 700px;
@@ -239,11 +239,12 @@ p {
   .ffr-pic {
     background-image: url('images/FFR1.png');
     z-index: 99;
+
   }
 
   .ffd-pic {
-    background-image: url('images/ffd.png');
-    height: auto;
+    background-image: url('images/ffd.png') !important;
+    height: 35vh;
   }
 
   p {
@@ -255,7 +256,7 @@ p {
 @media screen and (min-width: 600px ){
 
 
-  .bt-pic, .ffr-pic, .amMan-pic {
+  .bt-pic, .ffr-pic, .amMan-pic, .ffd-pic {
     width: 100%;
     opacity: .9;
     max-width: 700px;
@@ -294,5 +295,11 @@ p {
     background-position: center 90%;
     transform: scale(.95);
   }
+
+  .ffd-pic {
+    background-image: url('images/ffd.png') !important;
+    height: 35vh;
+  }
+
 
 }
